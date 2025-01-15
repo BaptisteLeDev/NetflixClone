@@ -3,14 +3,27 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0",
     "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
     "sequelize": "^6.37.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaptisteLeDev/BoosterProtfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BaptisteLeDev/BoosterProtfolio/issues"
+  },
+  "homepage": "https://github.com/BaptisteLeDev/BoosterProtfolio#readme"
 }
