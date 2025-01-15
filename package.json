@@ -1,0 +1,16 @@
+{
+  "name": "netflix-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5"
+  }
+}
