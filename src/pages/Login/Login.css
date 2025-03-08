@@ -24,9 +24,11 @@
     background-image: linear-gradient(var(--primary-bg), var(--primary-bg)), url('/background_banner.jpg');
     padding: var(--padding-normal) 7%;
 }
+
 .login-logo {
     width: 150px;
 }
+
 .center-flex {
     display: flex;
     justify-content: center;
@@ -42,11 +44,13 @@
     padding: var(--padding-large);
     margin: auto;
 }
+
 .login-form h1 {
     font-size: var(--font-size-large);
     font-weight: 600;
     margin-bottom: var(--padding-normal);
 }
+
 .login-form input,
 .login-form button {
     width: 100%;
@@ -59,20 +63,24 @@
     font-size: var(--font-size-normal);
     font-weight: 500;
 }
+
 .login-form input {
     background: #333;
     color: var(--button-color);
 }
+
 .login-form input::placeholder {
     font-size: var(--font-size-normal);
     font-weight: 500;
     color: var(--placeholder-color);
 }
+
 .login-form button {
     background: var(--button-bg);
     color: var(--button-color);
     cursor: pointer;
 }
+
 .login-form button:hover {
     opacity: 0.9;
 }
@@ -85,20 +93,24 @@
     color: var(--text-color-light);
     font-size: var(--font-size-small);
 }
+
 .remember {
     display: flex;
     align-items: center;
     gap: 5px;
 }
+
 .remember input {
     width: 18px;
     height: 18px;
 }
+
 .form-switch {
     margin-top: 40px;
     color: var(--text-color-gray);
     font-size: var(--font-size-small);
 }
+
 .form-switch span {
     color: var(--button-color);
     margin-left: 6px;
@@ -111,9 +123,15 @@
 .login-spinner {
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .login-spinner img {
     width: 75px;
+    margin: auto;
+    
 }
 
 /* Responsive Styles */
@@ -121,15 +139,18 @@
     .login {
         padding: var(--padding-small) 5%;
     }
+
     .login-form {
         padding: var(--padding-normal);
         margin-top: var(--padding-normal);
     }
 }
+
 @media screen and (max-width: 600px) {
     .login {
         padding: var(--padding-small) 5%;
     }
+
     .login-form {
         padding: var(--padding-small);
     }

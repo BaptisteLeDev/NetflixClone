@@ -65,7 +65,6 @@ const Login = () => {
       </p>
     )
   );
-
   return loading ? (
     <div className="login-spinner">
       <img src={netflix_spinner} alt="spinner" />

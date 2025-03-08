@@ -10,11 +10,7 @@
 .card-list {
     display: flex;
     gap: 10px;
-    overflow-x: auto; 
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
-    box-sizing: border-box; 
+    overflow-x: scroll;
 }
 
 .card-list::-webkit-scrollbar {
@@ -26,18 +22,9 @@
     border-radius: 5px;
     object-fit: cover;
     cursor: pointer;
-    transition: transform 0.5s, filter 0.5s;
 }
 
-.card-list img:hover {
-    border-radius: 7px;
-    transform: scale(1.05);
-    filter: brightness(0.25); 
-}
-
-.card-list .card {
-    flex-shrink: 0; /* Empêche les cartes de se réduire sous la pression d'espace */
-    max-width: 100%; /* Empêche les cartes de déborder */
+.card-list .card{
     position: relative;
 }
 
@@ -46,29 +33,5 @@
     bottom: 10px;
     right: 10px;
     color: white;
-    font-weight: 800;
-    text-decoration: none;
+    font-weight: 400;
 }
-
-@media screen and (max-width: 1250px) {
-.title-cards h2 {
-    font-size: 20px;
-}
-    .card-list img {
-        width: 200px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .title-cards h2 {
-        font-size: 15px;
-    }
-    
-        .card-list img {
-            width: 160px;
-        }
-    
-        .card-list  p{
-            font-size: 12px;
-        }
-    }
